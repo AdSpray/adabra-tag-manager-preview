@@ -1,4 +1,4 @@
-# Acquia Lift Google Tag Manager (GTM) template
+# Adabra - Google Tag Manager (GTM) template
 Google Tag Manager (GTM) template which allows customers to easily install and test Adabra on their site via GTM.
 
 
