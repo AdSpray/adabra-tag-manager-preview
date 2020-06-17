@@ -1,5 +1,5 @@
 homepage: "https:/www.adabra.com"
 documentation: "https://www.adabra.com/faq-adabra"
 versions:
-  - sha: 8d0e0bfa2fe0931b3ae1757d3623eb5d80305716
-    changeNotes: Initial release.
+  - sha: 9a79c60dbad7a4189b2eef962085367e438eb1b7
+    changeNotes: Update script and bugs fixing.
