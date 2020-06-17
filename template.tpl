@@ -35,8 +35,10 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
+const callInWindow = require('callInWindow');
 
 injectScript("https://t.adbr.io/sbn_preview.js", function() {
+  callInWindow('adabraPreview.init');
   data.gtmOnSuccess();
 }, function() {
   data.gtmOnFailure();
@@ -71,6 +73,16 @@ ___WEB_PERMISSIONS___
       "isEditedByUser": true
     },
     "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "access_globals",
+        "versionId": "1"
+      },
+      "param": []
+    },
+    "isRequired": true
   }
 ]
 
@@ -82,6 +94,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 6/6/2020, 02:03:18
+Created on 18/6/2020, 00:39:58
 
 
